@@ -1,0 +1,1111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CFA765B-FB2F-47C7-A311-6E8C1E50199E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlitzInfo</RootNamespace>
+    <AssemblyName>BlitzInfo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EngineIoClientDotNet, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EngineIoClientDotNet.1.0.3\lib\net45\EngineIoClientDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\MigraDoc.DocumentObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\MigraDoc.Rendering.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\MigraDoc.RtfRendering.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot, Version=2013.1.52.1, Culture=neutral, PublicKeyToken=638079a8f0bd61e9, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\OxyPlot.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OxyPlot.OpenXml, Version=2013.1.52.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\OxyPlot.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OxyPlot.Pdf, Version=2013.1.52.1, Culture=neutral, PublicKeyToken=c167629db8cf8ad9, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\OxyPlot.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OxyPlot.Wpf, Version=2013.1.52.1, Culture=neutral, PublicKeyToken=75e952ba404cdbb0, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\OxyPlot.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OxyPlot.Xps, Version=2013.1.52.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\OxyPlot.Xps.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\OxyPlot.Wpf_NoPCL.2013.1.52.1\lib\NET40\PdfSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SocketIoClientDotNet, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SocketIoClientDotNet.1.0.3\lib\net45\SocketIoClientDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine, Version=0.8.0.13, Culture=neutral, PublicKeyToken=ee9af13f57f00acc, processorArchitecture=MSIL">
+      <HintPath>..\packages\SuperSocket.ClientEngine.Core.0.8.0.13\lib\net45\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.4.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WebSocket4Net, Version=0.15.0.9, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSocket4Net.0.15.0\lib\net45\WebSocket4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Converter\LatLonConverter.cs" />
+    <Compile Include="Converter\CountryNameConverter.cs" />
+    <Compile Include="Converter\SunElevationConverter.cs" />
+    <Compile Include="Converter\BlitzNumberConverter.cs" />
+    <Compile Include="Converter\CountConverter.cs" />
+    <Compile Include="Converter\DateTimeConverter.cs" />
+    <Compile Include="Converter\AzimuthImageConverter.cs" />
+    <Compile Include="Converter\DayStateImageConverter.cs" />
+    <Compile Include="Converter\DirectionConverter.cs" />
+    <Compile Include="Converter\DistanceTresholdConverter.cs" />
+    <Compile Include="Converter\IsLightningConverter.cs" />
+    <Compile Include="Converter\CountryImageConverter.cs" />
+    <Compile Include="Converter\DistanceBacgeConverter.cs" />
+    <Compile Include="Converter\DotConverter.cs" />
+    <Compile Include="Converter\KilometerConverter.cs" />
+    <Compile Include="Converter\PercentComverter.cs" />
+    <Compile Include="Converter\SoundTresholdConverter.cs" />
+    <Compile Include="Converter\XtermColorConverter.cs" />
+    <Compile Include="Model\BlitzModel.cs" />
+    <Compile Include="Model\BlitzWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Model\Entities\Address.cs" />
+    <Compile Include="Model\Entities\MetHuAlerts.cs" />
+    <Compile Include="Model\Entities\StationStatEntry.cs" />
+    <Compile Include="Model\Entities\ServerLog.cs" />
+    <Compile Include="Model\Entities\OverallStatEntry.cs" />
+    <Compile Include="Model\Entities\Stroke.cs" />
+    <Compile Include="Model\Entities\StrokeTenmin.cs" />
+    <Compile Include="Model\Entities\LatLon.cs" />
+    <Compile Include="Model\EventArgs.cs" />
+    <Compile Include="Model\Excepts.cs" />
+    <Compile Include="Model\Entities\InitObject.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\UtilValues.cs" />
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="Converter\BlitzDistanceColorConverter.cs" />
+    <Compile Include="ViewModel\BlitzCountryStatItem.cs" />
+    <Compile Include="ViewModel\BlitzViewModel.cs" />
+    <Compile Include="ViewModel\DelegateCommand.cs" />
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\Roboto-Thin.ttf" />
+    <Resource Include="Resources\Roboto-Regular.ttf" />
+    <Resource Include="Resources\Roboto-Light.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\LOGO2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\blue.png" />
+    <Resource Include="Images\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\lightning-01.png" />
+    <Resource Include="Resources\nolightning-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\sun-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\sunset-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\sounds-889-credulous.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\RobotoCondensed-Regular.ttf" />
+    <None Include="Resources\sounds-889-credulous.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\d_astronomical.png" />
+    <Resource Include="Resources\d_civil.png" />
+    <Resource Include="Resources\d_daylight.png" />
+    <Resource Include="Resources\d_horizon.png" />
+    <Resource Include="Resources\d_nautical.png" />
+    <Resource Include="Resources\d_night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\downarrow_o.png" />
+    <Resource Include="Resources\downarrow_o_max.png" />
+    <Resource Include="Resources\uparrow_o.png" />
+    <Resource Include="Resources\uparrow_o_min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ag-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ai-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\al-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\am-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\an-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ao-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aq-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ar-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\as-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\at-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\au-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ax-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\az-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ba-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bd-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\be-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bh-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bi-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bl-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bq-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bs-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bv-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\by-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ch-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ci-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ck-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cl-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\co-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cv-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cx-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cy-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\do-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ec-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ee-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eh-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ehog-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\er-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\et-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fi-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ga-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gb-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gd-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ge-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gh-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gi-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gl-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gp-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gq-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gs-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gt-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gy-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ht-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ie-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\il-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\in-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\io-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ir-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\is-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\it-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\je-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jp-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ke-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kh-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ki-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\km-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kp-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ky-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lb-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\li-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ls-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lt-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lv-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ly-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ma-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\md-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\me-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mh-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ml-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mp-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mq-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ms-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mt-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mv-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mx-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\na-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ne-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ng-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ni-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nl-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\np-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\om-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pa-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pe-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ph-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pl-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ps-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pt-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\py-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qa-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\re-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ro-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rs-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ru-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sa-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sb-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sd-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\se-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\si-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sl-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\so-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sv-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sx-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sy-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\td-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tl-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tr-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tt-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tv-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ua-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ug-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\um-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\un-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\us-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uy-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uz-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\va-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ve-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vg-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vi-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vu-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weed-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wf-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ws-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xa-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xc-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xk-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xn-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xo-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xp-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xs-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xt-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ye-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\za-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zm-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zw-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\error-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\progress-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\dot0_5.png" />
+    <Resource Include="Resources\dot1000plus.png" />
+    <Resource Include="Resources\dot200_1000.png" />
+    <Resource Include="Resources\dot20_50.png" />
+    <Resource Include="Resources\dot50_200.png" />
+    <Resource Include="Resources\dot5_20.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,47 @@
+﻿<Application x:Class="BlitzInfo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:conv="clr-namespace:BlitzInfo.Converter">
+    <Application.Resources>
+        <conv:BlitzDistanceConverter x:Key="DistanceConverter" />
+        <conv:CountryImageConverter x:Key="CountryImageConverter" />
+        <conv:BlitzNumberConverter x:Key="BlitzNumberConverter" />
+        <conv:DistanceBadgeConverter x:Key="DistanceBadgeConverter"/>
+        <conv:KilometerConverter x:Key="KilometerConverter"/>
+        <conv:PercentComverter x:Key="PercentConverter"/>
+        <conv:CountConverter x:Key="CountConverter"/>
+        <conv:DotConverter x:Key="DotConverter"/>
+        <conv:IsLightningConverter x:Key="IsLightningConverter"/>
+        <conv:DateTimeConverter x:Key="DateTimeConverter"/>
+        <conv:DayStateImageConverter x:Key="DayStateImageConverter" />
+        <conv:DirectionConverter x:Key="DirectionConverter" />
+        <conv:DistanceTresholdConverter x:Key="DistanceTresholdConverter" />
+        <conv:AzimuthImageConverter x:Key="AzimuthImageConverter" />
+        <conv:SunElevationConverter x:Key="SunElevationConverter" />
+        <conv:SoundTresholdConverter x:Key="SoundTresholdConverter" />
+        <conv:CountryNameConverter x:Key="CountryNameConverter" />
+        <conv:XtermColorConverter x:Key="XtermColorConverter" />
+        <SolidColorBrush Color="#3000FF00" x:Key="_logOKColor" />
+        <SolidColorBrush Color="#2BFFC300" x:Key="_logAwaitColor" />
+        <SolidColorBrush Color="#30FF0707" x:Key="_logErrorColor" />
+        <SolidColorBrush Color="#302893FF" x:Key="_logCommandColor" />
+        <SolidColorBrush Color="#30FFFFFF" x:Key="_logInfColor" />
+        <SolidColorBrush Color="#307E0056" x:Key="_logServColor" />
+        <SolidColorBrush Color="#33a6a6a6" x:Key="_1000plusBrush" />
+        <SolidColorBrush Color="#22c5d100" x:Key="_200plusBrush" />
+        <SolidColorBrush Color="#55ffe607" x:Key="_50plusBrush" />
+        <SolidColorBrush Color="#44ff5500" x:Key="_20plusBrush" />
+        <SolidColorBrush Color="#44ff000c" x:Key="_5plusBrush" />
+        <SolidColorBrush Color="#4498000A" x:Key="_0plusBrush" />
+        <SolidColorBrush Color="#FF9100" x:Key="MainColor" />
+        <SolidColorBrush Color="#FFAB00" x:Key="MainColorLighter" />
+        <SolidColorBrush Color="#212121" x:Key="DarkestBg" />
+        <SolidColorBrush Color="#424242" x:Key="DarkerBg" />
+        <DataTemplate x:Key="expandertmp">
+            <StackPanel Orientation="Horizontal">
+                <Image VerticalAlignment="Center" Source="{Binding CountryCode, Converter={StaticResource CountryImageConverter}}" Width="24"></Image>
+                <TextBlock Text="{Binding CountryCount}" FontSize="16" VerticalAlignment="Center" Margin="1,0,2,0" FontWeight="Bold"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </Application.Resources>
+</Application>

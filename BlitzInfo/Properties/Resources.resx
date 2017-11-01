@@ -1,0 +1,2464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ad_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ad-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ae_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ae-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="af_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\af-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ag_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ag-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ai_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ai-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="al_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\al-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="am_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\am-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\an-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ao_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ao-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aq_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aq-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ar_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ar-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="as_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\as-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="at_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\at-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="au_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\au-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ax_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ax-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="az_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\az-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ba_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ba-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bb_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bb-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bd_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bd-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="be_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\be-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bh_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bh-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bi_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bi-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bj_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bj-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bl_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bl-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bq_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bq-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="br_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\br-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bs_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bs-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bv_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bv-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="by_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\by-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ca_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ca-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cd-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ch_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ch-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ci_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ci-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ck_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ck-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cl_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cl-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="co_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\co-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cu-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cv_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cv-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cx_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cx-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cy_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cy-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\de-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dj_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dj-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="do_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\do-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ec_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ec-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ee_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ee-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ehog_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ehog-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eh_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eh-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empty_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empty-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="er_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\er-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="es_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\es-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="et_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\et-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fi_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fi-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fj_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fj-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fo_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fo-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ga_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ga-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gd_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gd-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ge_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ge-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gh_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gh-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gi_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gi-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gl_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gl-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gp_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gp-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gq_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gq-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gs_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gs-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gt_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gt-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gu-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gy_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gy-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ht_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ht-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hu-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="id_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\id-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ie_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ie-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\il-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="im_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\im-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="in_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\in-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="io_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\io-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ir_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ir-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="is_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\is-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\it-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="je_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\je-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jo_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jo-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jp_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jp-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ke_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ke-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kh_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kh-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ki_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ki-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="km_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\km-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kp_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kp-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ky_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ky-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\la-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lb_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lb-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="li_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\li-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ls_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ls-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lt_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lt-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lu-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lv_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lv-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ly_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ly-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ma_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ma-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="md_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\md-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="me_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\me-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mh_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mh-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ml_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ml-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mo_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mo-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mp_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mp-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mq_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mq-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ms_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mt_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mt-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mu-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mv_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mv-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mx_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mx-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="my_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\my-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="na_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\na-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ne_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ne-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ng_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ng-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ni_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ni-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nl_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nl-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="np_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\np-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nu-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="om_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\om-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pa_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pa-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pe_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pe-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ph_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ph-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pl_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pl-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ps_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ps-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pt_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pt-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="py_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\py-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qa_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qa-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="re_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\re-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ro_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ro-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rs-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ru_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sa_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sa-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sb-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sd_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sd-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="se_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\se-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sh_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sh-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="si_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\si-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sj_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sj-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sl_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sl-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="so_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\so-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ss_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ss-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="st_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\st-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sv_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sv-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sx_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sx-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sy_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sy-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="td_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\td-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\th-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tj_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tj-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tl_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tl-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="to_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\to-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tr_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tr-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tt_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tt-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tv_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tv-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ua_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ua-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ug_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ug-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="um_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\um-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="un_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\un-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="us_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\us-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uy_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uy-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uz_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uz-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="va_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\va-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ve_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ve-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vg_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vg-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vi_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vi-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vu_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vu-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weed_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weed-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wf_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wf-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ws_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ws-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xa_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xa-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xc_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xc-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xk_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xk-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xn-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xo_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xo-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xp_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xp-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xs_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xs-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xt_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xt-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ye_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ye-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="za_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\za-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zm_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zm-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zw_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zw-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iso3166_xx" xml:space="preserve">
+    <value>Ismeretlen vagy nemzetközi</value>
+  </data>
+  <data name="iso3166_ad" xml:space="preserve">
+    <value>Andorra</value>
+  </data>
+  <data name="iso3166_ae" xml:space="preserve">
+    <value>Egyesült Arab Emírségek</value>
+  </data>
+  <data name="iso3166_af" xml:space="preserve">
+    <value>﻿Afganisztán</value>
+  </data>
+  <data name="iso3166_ag" xml:space="preserve">
+    <value>Antigua és Barbuda</value>
+  </data>
+  <data name="iso3166_ai" xml:space="preserve">
+    <value>Anguilla</value>
+  </data>
+  <data name="iso3166_al" xml:space="preserve">
+    <value>Albánia</value>
+  </data>
+  <data name="iso3166_am" xml:space="preserve">
+    <value>Örményország</value>
+  </data>
+  <data name="iso3166_an" xml:space="preserve">
+    <value>Ex. Holland Antillák</value>
+  </data>
+  <data name="iso3166_ao" xml:space="preserve">
+    <value>Angola</value>
+  </data>
+  <data name="iso3166_aq" xml:space="preserve">
+    <value>Antarktisz</value>
+  </data>
+  <data name="iso3166_ar" xml:space="preserve">
+    <value>Argentína</value>
+  </data>
+  <data name="iso3166_as" xml:space="preserve">
+    <value>Amerikai Szamoa </value>
+  </data>
+  <data name="iso3166_at" xml:space="preserve">
+    <value>Ausztria</value>
+  </data>
+  <data name="iso3166_au" xml:space="preserve">
+    <value>Ausztrália</value>
+  </data>
+  <data name="iso3166_aw" xml:space="preserve">
+    <value>Aruba</value>
+  </data>
+  <data name="iso3166_ax" xml:space="preserve">
+    <value>Åland (Finn)</value>
+  </data>
+  <data name="iso3166_az" xml:space="preserve">
+    <value>Azerbajdzsán</value>
+  </data>
+  <data name="iso3166_ba" xml:space="preserve">
+    <value>Bosznia-Hercegovina</value>
+  </data>
+  <data name="iso3166_bb" xml:space="preserve">
+    <value>Barbados</value>
+  </data>
+  <data name="iso3166_bd" xml:space="preserve">
+    <value>Banglades</value>
+  </data>
+  <data name="iso3166_be" xml:space="preserve">
+    <value>Belgium</value>
+  </data>
+  <data name="iso3166_bf" xml:space="preserve">
+    <value>Burkina Faso</value>
+  </data>
+  <data name="iso3166_bg" xml:space="preserve">
+    <value>Bulgária</value>
+  </data>
+  <data name="iso3166_bh" xml:space="preserve">
+    <value>Bahrein</value>
+  </data>
+  <data name="iso3166_bi" xml:space="preserve">
+    <value>Burundi</value>
+  </data>
+  <data name="iso3166_bj" xml:space="preserve">
+    <value>Benin</value>
+  </data>
+  <data name="iso3166_bl" xml:space="preserve">
+    <value>Saint Barthelemy</value>
+  </data>
+  <data name="iso3166_bm" xml:space="preserve">
+    <value>Bermuda </value>
+  </data>
+  <data name="iso3166_bn" xml:space="preserve">
+    <value>Brunei</value>
+  </data>
+  <data name="iso3166_bo" xml:space="preserve">
+    <value>Bolívia</value>
+  </data>
+  <data name="iso3166_bq" xml:space="preserve">
+    <value>Bonaire, Sint Eustatius, és Saba</value>
+  </data>
+  <data name="iso3166_br" xml:space="preserve">
+    <value>Brazília</value>
+  </data>
+  <data name="iso3166_bs" xml:space="preserve">
+    <value>Bahama-szigetek</value>
+  </data>
+  <data name="iso3166_bt" xml:space="preserve">
+    <value>Bhután</value>
+  </data>
+  <data name="iso3166_bv" xml:space="preserve">
+    <value>Bouvet-sziget</value>
+  </data>
+  <data name="iso3166_bw" xml:space="preserve">
+    <value>Botswana</value>
+  </data>
+  <data name="iso3166_by" xml:space="preserve">
+    <value>Belarusz</value>
+  </data>
+  <data name="iso3166_bz" xml:space="preserve">
+    <value>Belize</value>
+  </data>
+  <data name="iso3166_ca" xml:space="preserve">
+    <value>Kanada</value>
+  </data>
+  <data name="iso3166_cc" xml:space="preserve">
+    <value>Kókusz-szigetek/Keeling-szigetek</value>
+  </data>
+  <data name="iso3166_cd" xml:space="preserve">
+    <value>Kongói Demokratikus Köztársaság</value>
+  </data>
+  <data name="iso3166_cf" xml:space="preserve">
+    <value>Közép-afrikai Köztársaság</value>
+  </data>
+  <data name="iso3166_cg" xml:space="preserve">
+    <value>Kongó</value>
+  </data>
+  <data name="iso3166_ch" xml:space="preserve">
+    <value>Svájc</value>
+  </data>
+  <data name="iso3166_ci" xml:space="preserve">
+    <value>Elefántcsontpart</value>
+  </data>
+  <data name="iso3166_ck" xml:space="preserve">
+    <value>Cook-szigetek</value>
+  </data>
+  <data name="iso3166_cl" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+  <data name="iso3166_cm" xml:space="preserve">
+    <value>Kamerun</value>
+  </data>
+  <data name="iso3166_cn" xml:space="preserve">
+    <value>Kínai Népköztársaság</value>
+  </data>
+  <data name="iso3166_co" xml:space="preserve">
+    <value>Kolumbia</value>
+  </data>
+  <data name="iso3166_cp" xml:space="preserve">
+    <value>Clipperton-sziget</value>
+  </data>
+  <data name="iso3166_cr" xml:space="preserve">
+    <value>Costa Rica</value>
+  </data>
+  <data name="iso3166_cu" xml:space="preserve">
+    <value>Kuba</value>
+  </data>
+  <data name="iso3166_cv" xml:space="preserve">
+    <value>Zöld-foki-szigetek</value>
+  </data>
+  <data name="iso3166_cw" xml:space="preserve">
+    <value>Curaçao</value>
+  </data>
+  <data name="iso3166_cx" xml:space="preserve">
+    <value>Karácsony-sziget</value>
+  </data>
+  <data name="iso3166_cy" xml:space="preserve">
+    <value>Ciprus</value>
+  </data>
+  <data name="iso3166_cz" xml:space="preserve">
+    <value>Csehország</value>
+  </data>
+  <data name="iso3166_de" xml:space="preserve">
+    <value>Németország</value>
+  </data>
+  <data name="iso3166_dj" xml:space="preserve">
+    <value>Dzsibuti</value>
+  </data>
+  <data name="iso3166_dk" xml:space="preserve">
+    <value>Dánia</value>
+  </data>
+  <data name="iso3166_dm" xml:space="preserve">
+    <value>Dominika</value>
+  </data>
+  <data name="iso3166_do" xml:space="preserve">
+    <value>Dominikai Köztársaság</value>
+  </data>
+  <data name="iso3166_dz" xml:space="preserve">
+    <value>Algéria</value>
+  </data>
+  <data name="iso3166_ec" xml:space="preserve">
+    <value>Ecuador</value>
+  </data>
+  <data name="iso3166_ee" xml:space="preserve">
+    <value>Észtország</value>
+  </data>
+  <data name="iso3166_eg" xml:space="preserve">
+    <value>Egyiptom</value>
+  </data>
+  <data name="iso3166_eh" xml:space="preserve">
+    <value>Nyugat-Szahara</value>
+  </data>
+  <data name="iso3166_er" xml:space="preserve">
+    <value>Eritrea</value>
+  </data>
+  <data name="iso3166_es" xml:space="preserve">
+    <value>Spanyolország</value>
+  </data>
+  <data name="iso3166_et" xml:space="preserve">
+    <value>Etiópia</value>
+  </data>
+  <data name="iso3166_fi" xml:space="preserve">
+    <value>Finnország</value>
+  </data>
+  <data name="iso3166_fj" xml:space="preserve">
+    <value>Fidzsi-szigetek</value>
+  </data>
+  <data name="iso3166_fk" xml:space="preserve">
+    <value>Falkland-szigetek</value>
+  </data>
+  <data name="iso3166_fm" xml:space="preserve">
+    <value>Mikronézia</value>
+  </data>
+  <data name="iso3166_fo" xml:space="preserve">
+    <value>Feröer szigetek </value>
+  </data>
+  <data name="iso3166_fr" xml:space="preserve">
+    <value>Franciaország</value>
+  </data>
+  <data name="iso3166_ga" xml:space="preserve">
+    <value>Gabon</value>
+  </data>
+  <data name="iso3166_gb" xml:space="preserve">
+    <value>Egyesült Királyság</value>
+  </data>
+  <data name="iso3166_gd" xml:space="preserve">
+    <value>Grenada</value>
+  </data>
+  <data name="iso3166_ge" xml:space="preserve">
+    <value>Grúzia</value>
+  </data>
+  <data name="iso3166_gf" xml:space="preserve">
+    <value>Francia Guyana</value>
+  </data>
+  <data name="iso3166_gg" xml:space="preserve">
+    <value>Guernsey</value>
+  </data>
+  <data name="iso3166_gh" xml:space="preserve">
+    <value>Ghána</value>
+  </data>
+  <data name="iso3166_gi" xml:space="preserve">
+    <value>Gibraltár</value>
+  </data>
+  <data name="iso3166_gl" xml:space="preserve">
+    <value>Grönland</value>
+  </data>
+  <data name="iso3166_gm" xml:space="preserve">
+    <value>Gambia</value>
+  </data>
+  <data name="iso3166_gn" xml:space="preserve">
+    <value>Guinea</value>
+  </data>
+  <data name="iso3166_gp" xml:space="preserve">
+    <value>Guadeloupe</value>
+  </data>
+  <data name="iso3166_gq" xml:space="preserve">
+    <value>Egyenlítői-Guinea</value>
+  </data>
+  <data name="iso3166_gr" xml:space="preserve">
+    <value>Görögország</value>
+  </data>
+  <data name="iso3166_gs" xml:space="preserve">
+    <value>Dél-Georgia és Déli-Sandwich-szigetek</value>
+  </data>
+  <data name="iso3166_gt" xml:space="preserve">
+    <value>Guatemala</value>
+  </data>
+  <data name="iso3166_gu" xml:space="preserve">
+    <value>Guam</value>
+  </data>
+  <data name="iso3166_gw" xml:space="preserve">
+    <value>Bissau-Guinea</value>
+  </data>
+  <data name="iso3166_gy" xml:space="preserve">
+    <value>Guyana</value>
+  </data>
+  <data name="iso3166_hk" xml:space="preserve">
+    <value>Hongkong</value>
+  </data>
+  <data name="iso3166_hm" xml:space="preserve">
+    <value>Heard-sziget és McDonald-szigetek</value>
+  </data>
+  <data name="iso3166_hn" xml:space="preserve">
+    <value>Honduras</value>
+  </data>
+  <data name="iso3166_hr" xml:space="preserve">
+    <value>Horvátország</value>
+  </data>
+  <data name="iso3166_ht" xml:space="preserve">
+    <value>Haiti</value>
+  </data>
+  <data name="iso3166_hu" xml:space="preserve">
+    <value>Magyarország</value>
+  </data>
+  <data name="iso3166_id" xml:space="preserve">
+    <value>Indonézia</value>
+  </data>
+  <data name="iso3166_ie" xml:space="preserve">
+    <value>Írország</value>
+  </data>
+  <data name="iso3166_il" xml:space="preserve">
+    <value>Izrael</value>
+  </data>
+  <data name="iso3166_im" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="iso3166_in" xml:space="preserve">
+    <value>India</value>
+  </data>
+  <data name="iso3166_io" xml:space="preserve">
+    <value>Brit Indiai-óceáni Terület</value>
+  </data>
+  <data name="iso3166_iq" xml:space="preserve">
+    <value>Irak</value>
+  </data>
+  <data name="iso3166_ir" xml:space="preserve">
+    <value>Irán</value>
+  </data>
+  <data name="iso3166_is" xml:space="preserve">
+    <value>Izland</value>
+  </data>
+  <data name="iso3166_it" xml:space="preserve">
+    <value>Olaszország</value>
+  </data>
+  <data name="iso3166_je" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="iso3166_jm" xml:space="preserve">
+    <value>Jamaica</value>
+  </data>
+  <data name="iso3166_jo" xml:space="preserve">
+    <value>Jordánia</value>
+  </data>
+  <data name="iso3166_jp" xml:space="preserve">
+    <value>Japán</value>
+  </data>
+  <data name="iso3166_ke" xml:space="preserve">
+    <value>Kenya</value>
+  </data>
+  <data name="iso3166_kg" xml:space="preserve">
+    <value>Kirgizisztán</value>
+  </data>
+  <data name="iso3166_kh" xml:space="preserve">
+    <value>Kambodzsa</value>
+  </data>
+  <data name="iso3166_ki" xml:space="preserve">
+    <value>Kiribati</value>
+  </data>
+  <data name="iso3166_km" xml:space="preserve">
+    <value>Comore-szigetek</value>
+  </data>
+  <data name="iso3166_kn" xml:space="preserve">
+    <value>Saint Kitts és Nevis</value>
+  </data>
+  <data name="iso3166_kp" xml:space="preserve">
+    <value>Észak-Korea</value>
+  </data>
+  <data name="iso3166_kr" xml:space="preserve">
+    <value>Dél-Korea</value>
+  </data>
+  <data name="iso3166_kw" xml:space="preserve">
+    <value>Kuvait</value>
+  </data>
+  <data name="iso3166_ky" xml:space="preserve">
+    <value>Kajmán-szigetek</value>
+  </data>
+  <data name="iso3166_kz" xml:space="preserve">
+    <value>Kazahsztán</value>
+  </data>
+  <data name="iso3166_la" xml:space="preserve">
+    <value>Laosz</value>
+  </data>
+  <data name="iso3166_lb" xml:space="preserve">
+    <value>Libanon</value>
+  </data>
+  <data name="iso3166_lc" xml:space="preserve">
+    <value>Saint Lucia</value>
+  </data>
+  <data name="iso3166_li" xml:space="preserve">
+    <value>Liechtenstein</value>
+  </data>
+  <data name="iso3166_lk" xml:space="preserve">
+    <value>Srí Lanka</value>
+  </data>
+  <data name="iso3166_lr" xml:space="preserve">
+    <value>Libéria</value>
+  </data>
+  <data name="iso3166_ls" xml:space="preserve">
+    <value>Lesotho</value>
+  </data>
+  <data name="iso3166_lt" xml:space="preserve">
+    <value>Litvánia</value>
+  </data>
+  <data name="iso3166_lu" xml:space="preserve">
+    <value>Luxemburg</value>
+  </data>
+  <data name="iso3166_lv" xml:space="preserve">
+    <value>Lettország</value>
+  </data>
+  <data name="iso3166_ly" xml:space="preserve">
+    <value>Líbia</value>
+  </data>
+  <data name="iso3166_ma" xml:space="preserve">
+    <value>Marokkó</value>
+  </data>
+  <data name="iso3166_mc" xml:space="preserve">
+    <value>Monaco</value>
+  </data>
+  <data name="iso3166_md" xml:space="preserve">
+    <value>Moldova</value>
+  </data>
+  <data name="iso3166_me" xml:space="preserve">
+    <value>Montenegró</value>
+  </data>
+  <data name="iso3166_mf" xml:space="preserve">
+    <value>Saint Martin (Francia)</value>
+  </data>
+  <data name="iso3166_mg" xml:space="preserve">
+    <value>Madagaszkár</value>
+  </data>
+  <data name="iso3166_mh" xml:space="preserve">
+    <value>Marshall-szigetek</value>
+  </data>
+  <data name="iso3166_mk" xml:space="preserve">
+    <value>Macedónia</value>
+  </data>
+  <data name="iso3166_ml" xml:space="preserve">
+    <value>Mali</value>
+  </data>
+  <data name="iso3166_mm" xml:space="preserve">
+    <value>Mianmar</value>
+  </data>
+  <data name="iso3166_mn" xml:space="preserve">
+    <value>Mongólia</value>
+  </data>
+  <data name="iso3166_mo" xml:space="preserve">
+    <value>Makaó</value>
+  </data>
+  <data name="iso3166_mp" xml:space="preserve">
+    <value>Északi-Mariana-szigetek</value>
+  </data>
+  <data name="iso3166_mq" xml:space="preserve">
+    <value>Martinique</value>
+  </data>
+  <data name="iso3166_mr" xml:space="preserve">
+    <value>Mauritánia</value>
+  </data>
+  <data name="iso3166_ms" xml:space="preserve">
+    <value>Montserrat</value>
+  </data>
+  <data name="iso3166_mt" xml:space="preserve">
+    <value>Málta</value>
+  </data>
+  <data name="iso3166_mu" xml:space="preserve">
+    <value>Mauritius</value>
+  </data>
+  <data name="iso3166_mv" xml:space="preserve">
+    <value>Maldív-szigetek</value>
+  </data>
+  <data name="iso3166_mw" xml:space="preserve">
+    <value>Malawi</value>
+  </data>
+  <data name="iso3166_mx" xml:space="preserve">
+    <value>Mexikó</value>
+  </data>
+  <data name="iso3166_my" xml:space="preserve">
+    <value>Malajzia</value>
+  </data>
+  <data name="iso3166_mz" xml:space="preserve">
+    <value>Mozambik</value>
+  </data>
+  <data name="iso3166_na" xml:space="preserve">
+    <value>Namíbia</value>
+  </data>
+  <data name="iso3166_nc" xml:space="preserve">
+    <value>Új-Kaledónia</value>
+  </data>
+  <data name="iso3166_ne" xml:space="preserve">
+    <value>Niger</value>
+  </data>
+  <data name="iso3166_nf" xml:space="preserve">
+    <value>Norfolk-sziget</value>
+  </data>
+  <data name="iso3166_ng" xml:space="preserve">
+    <value>Nigéria</value>
+  </data>
+  <data name="iso3166_ni" xml:space="preserve">
+    <value>Nicaragua</value>
+  </data>
+  <data name="iso3166_nl" xml:space="preserve">
+    <value>Hollandia</value>
+  </data>
+  <data name="iso3166_no" xml:space="preserve">
+    <value>Norvégia</value>
+  </data>
+  <data name="iso3166_np" xml:space="preserve">
+    <value>Nepál</value>
+  </data>
+  <data name="iso3166_nr" xml:space="preserve">
+    <value>Nauru</value>
+  </data>
+  <data name="iso3166_nu" xml:space="preserve">
+    <value>Niue </value>
+  </data>
+  <data name="iso3166_nz" xml:space="preserve">
+    <value>Új-Zéland</value>
+  </data>
+  <data name="iso3166_om" xml:space="preserve">
+    <value>Omán</value>
+  </data>
+  <data name="iso3166_pa" xml:space="preserve">
+    <value>Panama</value>
+  </data>
+  <data name="iso3166_pe" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="iso3166_pf" xml:space="preserve">
+    <value>Francia Polinézia</value>
+  </data>
+  <data name="iso3166_pg" xml:space="preserve">
+    <value>Pápua Új-Guinea</value>
+  </data>
+  <data name="iso3166_ph" xml:space="preserve">
+    <value>Fülöp-szigetek</value>
+  </data>
+  <data name="iso3166_pk" xml:space="preserve">
+    <value>Pakisztán</value>
+  </data>
+  <data name="iso3166_pl" xml:space="preserve">
+    <value>Lengyelország</value>
+  </data>
+  <data name="iso3166_pm" xml:space="preserve">
+    <value>Saint-Pierre és Miquelon</value>
+  </data>
+  <data name="iso3166_pn" xml:space="preserve">
+    <value>Pitcairn-szigetek</value>
+  </data>
+  <data name="iso3166_pr" xml:space="preserve">
+    <value>Puerto Rico </value>
+  </data>
+  <data name="iso3166_ps" xml:space="preserve">
+    <value>Palesztina (Izraeli)</value>
+  </data>
+  <data name="iso3166_pt" xml:space="preserve">
+    <value>Portugália</value>
+  </data>
+  <data name="iso3166_pw" xml:space="preserve">
+    <value>Palau</value>
+  </data>
+  <data name="iso3166_py" xml:space="preserve">
+    <value>Paraguay</value>
+  </data>
+  <data name="iso3166_qa" xml:space="preserve">
+    <value>Katar</value>
+  </data>
+  <data name="iso3166_re" xml:space="preserve">
+    <value>Réunion </value>
+  </data>
+  <data name="iso3166_ro" xml:space="preserve">
+    <value>Románia</value>
+  </data>
+  <data name="iso3166_rs" xml:space="preserve">
+    <value>Szerbia</value>
+  </data>
+  <data name="iso3166_ru" xml:space="preserve">
+    <value>Oroszország</value>
+  </data>
+  <data name="iso3166_rw" xml:space="preserve">
+    <value>Ruanda</value>
+  </data>
+  <data name="iso3166_sa" xml:space="preserve">
+    <value>Szaúd-Arábia</value>
+  </data>
+  <data name="iso3166_sb" xml:space="preserve">
+    <value>Salamon-szigetek</value>
+  </data>
+  <data name="iso3166_sc" xml:space="preserve">
+    <value>Seychelle-szigetek</value>
+  </data>
+  <data name="iso3166_sd" xml:space="preserve">
+    <value>Szudán</value>
+  </data>
+  <data name="iso3166_se" xml:space="preserve">
+    <value>Svédország</value>
+  </data>
+  <data name="iso3166_sg" xml:space="preserve">
+    <value>Szingapúr</value>
+  </data>
+  <data name="iso3166_sh" xml:space="preserve">
+    <value>Szent Ilona</value>
+  </data>
+  <data name="iso3166_si" xml:space="preserve">
+    <value>Szlovénia</value>
+  </data>
+  <data name="iso3166_sj" xml:space="preserve">
+    <value>Svalbard- és Jan Mayen-szigetek</value>
+  </data>
+  <data name="iso3166_sk" xml:space="preserve">
+    <value>Szlovákia</value>
+  </data>
+  <data name="iso3166_sl" xml:space="preserve">
+    <value>Sierra Leone</value>
+  </data>
+  <data name="iso3166_sm" xml:space="preserve">
+    <value>San Marino</value>
+  </data>
+  <data name="iso3166_sn" xml:space="preserve">
+    <value>Szenegál</value>
+  </data>
+  <data name="iso3166_so" xml:space="preserve">
+    <value>Szomália</value>
+  </data>
+  <data name="iso3166_sr" xml:space="preserve">
+    <value>Suriname</value>
+  </data>
+  <data name="iso3166_ss" xml:space="preserve">
+    <value>Dél-Szudán</value>
+  </data>
+  <data name="iso3166_st" xml:space="preserve">
+    <value>São Tomé és Príncipe</value>
+  </data>
+  <data name="iso3166_sv" xml:space="preserve">
+    <value>Salvador</value>
+  </data>
+  <data name="iso3166_sx" xml:space="preserve">
+    <value>Sint Maarten (Holland)</value>
+  </data>
+  <data name="iso3166_sy" xml:space="preserve">
+    <value>Szíria</value>
+  </data>
+  <data name="iso3166_sz" xml:space="preserve">
+    <value>Szváziföld</value>
+  </data>
+  <data name="iso3166_tc" xml:space="preserve">
+    <value>Turks- és Caicos-szigetek</value>
+  </data>
+  <data name="iso3166_td" xml:space="preserve">
+    <value>Csád</value>
+  </data>
+  <data name="iso3166_tf" xml:space="preserve">
+    <value>Francia Déli Területek</value>
+  </data>
+  <data name="iso3166_tg" xml:space="preserve">
+    <value>Togo</value>
+  </data>
+  <data name="iso3166_th" xml:space="preserve">
+    <value>Thaiföld</value>
+  </data>
+  <data name="iso3166_tj" xml:space="preserve">
+    <value>Tádzsikisztán</value>
+  </data>
+  <data name="iso3166_tk" xml:space="preserve">
+    <value>Tokelau-szigetek </value>
+  </data>
+  <data name="iso3166_tl" xml:space="preserve">
+    <value>Kelet-Timor</value>
+  </data>
+  <data name="iso3166_tm" xml:space="preserve">
+    <value>Türkmenisztán</value>
+  </data>
+  <data name="iso3166_tn" xml:space="preserve">
+    <value>Tunézia</value>
+  </data>
+  <data name="iso3166_to" xml:space="preserve">
+    <value>Tonga</value>
+  </data>
+  <data name="iso3166_tr" xml:space="preserve">
+    <value>Törökország</value>
+  </data>
+  <data name="iso3166_tt" xml:space="preserve">
+    <value>Trinidad és Tobago</value>
+  </data>
+  <data name="iso3166_tv" xml:space="preserve">
+    <value>Tuvalu</value>
+  </data>
+  <data name="iso3166_tw" xml:space="preserve">
+    <value>Kínai Köztársaság</value>
+  </data>
+  <data name="iso3166_tz" xml:space="preserve">
+    <value>Tanzánia</value>
+  </data>
+  <data name="iso3166_ua" xml:space="preserve">
+    <value>Ukrajna</value>
+  </data>
+  <data name="iso3166_ug" xml:space="preserve">
+    <value>Uganda</value>
+  </data>
+  <data name="iso3166_um" xml:space="preserve">
+    <value>Az Amerikai Egyesült Államok Külső Szigetei</value>
+  </data>
+  <data name="iso3166_us" xml:space="preserve">
+    <value>Egyesült Államok</value>
+  </data>
+  <data name="iso3166_uy" xml:space="preserve">
+    <value>Uruguay</value>
+  </data>
+  <data name="iso3166_uz" xml:space="preserve">
+    <value>Üzbegisztán</value>
+  </data>
+  <data name="iso3166_va" xml:space="preserve">
+    <value>Klerikális Szentszék</value>
+  </data>
+  <data name="iso3166_vc" xml:space="preserve">
+    <value>Saint Vincent és a Grenadine-szigetek</value>
+  </data>
+  <data name="iso3166_ve" xml:space="preserve">
+    <value>Venezuela</value>
+  </data>
+  <data name="iso3166_vg" xml:space="preserve">
+    <value>Brit Virgin-szigetek</value>
+  </data>
+  <data name="iso3166_vi" xml:space="preserve">
+    <value>Amerikai Virgin-szigetek</value>
+  </data>
+  <data name="iso3166_vn" xml:space="preserve">
+    <value>Vietnam</value>
+  </data>
+  <data name="iso3166_vu" xml:space="preserve">
+    <value>Vanuatu</value>
+  </data>
+  <data name="iso3166_wf" xml:space="preserve">
+    <value>Wallis és Futuna</value>
+  </data>
+  <data name="iso3166_ws" xml:space="preserve">
+    <value>Szamoa</value>
+  </data>
+  <data name="iso3166_xa" xml:space="preserve">
+    <value>Abházia (Grúz)</value>
+  </data>
+  <data name="iso3166_xc" xml:space="preserve">
+    <value>Krím-félsziget (Ukrán)</value>
+  </data>
+  <data name="iso3166_xk" xml:space="preserve">
+    <value>Koszovó (Szerb)</value>
+  </data>
+  <data name="iso3166_xn" xml:space="preserve">
+    <value>Hegyi-Karabah / Arcak (Azeri)</value>
+  </data>
+  <data name="iso3166_xo" xml:space="preserve">
+    <value>Dél-Oszétia (Grúz)</value>
+  </data>
+  <data name="iso3166_xq" xml:space="preserve">
+    <value>Szomáliföld</value>
+  </data>
+  <data name="iso3166_xt" xml:space="preserve">
+    <value>Észak-Ciprus (Ciprusi)</value>
+  </data>
+  <data name="iso3166_ye" xml:space="preserve">
+    <value>Jemen</value>
+  </data>
+  <data name="iso3166_yt" xml:space="preserve">
+    <value>Mayotte</value>
+  </data>
+  <data name="iso3166_za" xml:space="preserve">
+    <value>Dél-Afrika</value>
+  </data>
+  <data name="iso3166_zm" xml:space="preserve">
+    <value>Zambia</value>
+  </data>
+  <data name="iso3166_zw" xml:space="preserve">
+    <value>Zimbabwe</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xterm_0" xml:space="preserve">
+    <value>#000000</value>
+  </data>
+  <data name="xterm_1" xml:space="preserve">
+    <value>#800000</value>
+  </data>
+  <data name="xterm_2" xml:space="preserve">
+    <value>#008000</value>
+  </data>
+  <data name="xterm_3" xml:space="preserve">
+    <value>#808000</value>
+  </data>
+  <data name="xterm_4" xml:space="preserve">
+    <value>#000080</value>
+  </data>
+  <data name="xterm_5" xml:space="preserve">
+    <value>#800080</value>
+  </data>
+  <data name="xterm_6" xml:space="preserve">
+    <value>#008080</value>
+  </data>
+  <data name="xterm_7" xml:space="preserve">
+    <value>#c0c0c0</value>
+  </data>
+  <data name="xterm_8" xml:space="preserve">
+    <value>#808080</value>
+  </data>
+  <data name="xterm_9" xml:space="preserve">
+    <value>#ff0000</value>
+  </data>
+  <data name="xterm_10" xml:space="preserve">
+    <value>#00ff00</value>
+  </data>
+  <data name="xterm_11" xml:space="preserve">
+    <value>#ffff00</value>
+  </data>
+  <data name="xterm_12" xml:space="preserve">
+    <value>#0000ff</value>
+  </data>
+  <data name="xterm_13" xml:space="preserve">
+    <value>#ff00ff</value>
+  </data>
+  <data name="xterm_14" xml:space="preserve">
+    <value>#00ffff</value>
+  </data>
+  <data name="xterm_15" xml:space="preserve">
+    <value>#ffffff</value>
+  </data>
+  <data name="xterm_16" xml:space="preserve">
+    <value>#000000</value>
+  </data>
+  <data name="xterm_17" xml:space="preserve">
+    <value>#00005f</value>
+  </data>
+  <data name="xterm_18" xml:space="preserve">
+    <value>#000087</value>
+  </data>
+  <data name="xterm_19" xml:space="preserve">
+    <value>#0000af</value>
+  </data>
+  <data name="xterm_20" xml:space="preserve">
+    <value>#0000d7</value>
+  </data>
+  <data name="xterm_21" xml:space="preserve">
+    <value>#0000ff</value>
+  </data>
+  <data name="xterm_22" xml:space="preserve">
+    <value>#005f00</value>
+  </data>
+  <data name="xterm_23" xml:space="preserve">
+    <value>#005f5f</value>
+  </data>
+  <data name="xterm_24" xml:space="preserve">
+    <value>#005f87</value>
+  </data>
+  <data name="xterm_25" xml:space="preserve">
+    <value>#005faf</value>
+  </data>
+  <data name="xterm_26" xml:space="preserve">
+    <value>#005fd7</value>
+  </data>
+  <data name="xterm_27" xml:space="preserve">
+    <value>#005fff</value>
+  </data>
+  <data name="xterm_28" xml:space="preserve">
+    <value>#008700</value>
+  </data>
+  <data name="xterm_29" xml:space="preserve">
+    <value>#00875f</value>
+  </data>
+  <data name="xterm_30" xml:space="preserve">
+    <value>#008787</value>
+  </data>
+  <data name="xterm_31" xml:space="preserve">
+    <value>#0087af</value>
+  </data>
+  <data name="xterm_32" xml:space="preserve">
+    <value>#0087d7</value>
+  </data>
+  <data name="xterm_33" xml:space="preserve">
+    <value>#0087ff</value>
+  </data>
+  <data name="xterm_34" xml:space="preserve">
+    <value>#00af00</value>
+  </data>
+  <data name="xterm_35" xml:space="preserve">
+    <value>#00af5f</value>
+  </data>
+  <data name="xterm_36" xml:space="preserve">
+    <value>#00af87</value>
+  </data>
+  <data name="xterm_37" xml:space="preserve">
+    <value>#00afaf</value>
+  </data>
+  <data name="xterm_38" xml:space="preserve">
+    <value>#00afd7</value>
+  </data>
+  <data name="xterm_39" xml:space="preserve">
+    <value>#00afff</value>
+  </data>
+  <data name="xterm_40" xml:space="preserve">
+    <value>#00d700</value>
+  </data>
+  <data name="xterm_41" xml:space="preserve">
+    <value>#00d75f</value>
+  </data>
+  <data name="xterm_42" xml:space="preserve">
+    <value>#00d787</value>
+  </data>
+  <data name="xterm_43" xml:space="preserve">
+    <value>#00d7af</value>
+  </data>
+  <data name="xterm_44" xml:space="preserve">
+    <value>#00d7d7</value>
+  </data>
+  <data name="xterm_45" xml:space="preserve">
+    <value>#00d7ff</value>
+  </data>
+  <data name="xterm_46" xml:space="preserve">
+    <value>#00ff00</value>
+  </data>
+  <data name="xterm_47" xml:space="preserve">
+    <value>#00ff5f</value>
+  </data>
+  <data name="xterm_48" xml:space="preserve">
+    <value>#00ff87</value>
+  </data>
+  <data name="xterm_49" xml:space="preserve">
+    <value>#00ffaf</value>
+  </data>
+  <data name="xterm_50" xml:space="preserve">
+    <value>#00ffd7</value>
+  </data>
+  <data name="xterm_51" xml:space="preserve">
+    <value>#00ffff</value>
+  </data>
+  <data name="xterm_52" xml:space="preserve">
+    <value>#5f0000</value>
+  </data>
+  <data name="xterm_53" xml:space="preserve">
+    <value>#5f005f</value>
+  </data>
+  <data name="xterm_54" xml:space="preserve">
+    <value>#5f0087</value>
+  </data>
+  <data name="xterm_55" xml:space="preserve">
+    <value>#5f00af</value>
+  </data>
+  <data name="xterm_56" xml:space="preserve">
+    <value>#5f00d7</value>
+  </data>
+  <data name="xterm_57" xml:space="preserve">
+    <value>#5f00ff</value>
+  </data>
+  <data name="xterm_58" xml:space="preserve">
+    <value>#5f5f00</value>
+  </data>
+  <data name="xterm_59" xml:space="preserve">
+    <value>#5f5f5f</value>
+  </data>
+  <data name="xterm_60" xml:space="preserve">
+    <value>#5f5f87</value>
+  </data>
+  <data name="xterm_61" xml:space="preserve">
+    <value>#5f5faf</value>
+  </data>
+  <data name="xterm_62" xml:space="preserve">
+    <value>#5f5fd7</value>
+  </data>
+  <data name="xterm_63" xml:space="preserve">
+    <value>#5f5fff</value>
+  </data>
+  <data name="xterm_64" xml:space="preserve">
+    <value>#5f8700</value>
+  </data>
+  <data name="xterm_65" xml:space="preserve">
+    <value>#5f875f</value>
+  </data>
+  <data name="xterm_66" xml:space="preserve">
+    <value>#5f8787</value>
+  </data>
+  <data name="xterm_67" xml:space="preserve">
+    <value>#5f87af</value>
+  </data>
+  <data name="xterm_68" xml:space="preserve">
+    <value>#5f87d7</value>
+  </data>
+  <data name="xterm_69" xml:space="preserve">
+    <value>#5f87ff</value>
+  </data>
+  <data name="xterm_70" xml:space="preserve">
+    <value>#5faf00</value>
+  </data>
+  <data name="xterm_71" xml:space="preserve">
+    <value>#5faf5f</value>
+  </data>
+  <data name="xterm_72" xml:space="preserve">
+    <value>#5faf87</value>
+  </data>
+  <data name="xterm_73" xml:space="preserve">
+    <value>#5fafaf</value>
+  </data>
+  <data name="xterm_74" xml:space="preserve">
+    <value>#5fafd7</value>
+  </data>
+  <data name="xterm_75" xml:space="preserve">
+    <value>#5fafff</value>
+  </data>
+  <data name="xterm_76" xml:space="preserve">
+    <value>#5fd700</value>
+  </data>
+  <data name="xterm_77" xml:space="preserve">
+    <value>#5fd75f</value>
+  </data>
+  <data name="xterm_78" xml:space="preserve">
+    <value>#5fd787</value>
+  </data>
+  <data name="xterm_79" xml:space="preserve">
+    <value>#5fd7af</value>
+  </data>
+  <data name="xterm_80" xml:space="preserve">
+    <value>#5fd7d7</value>
+  </data>
+  <data name="xterm_81" xml:space="preserve">
+    <value>#5fd7ff</value>
+  </data>
+  <data name="xterm_82" xml:space="preserve">
+    <value>#5fff00</value>
+  </data>
+  <data name="xterm_83" xml:space="preserve">
+    <value>#5fff5f</value>
+  </data>
+  <data name="xterm_84" xml:space="preserve">
+    <value>#5fff87</value>
+  </data>
+  <data name="xterm_85" xml:space="preserve">
+    <value>#5fffaf</value>
+  </data>
+  <data name="xterm_86" xml:space="preserve">
+    <value>#5fffd7</value>
+  </data>
+  <data name="xterm_87" xml:space="preserve">
+    <value>#5fffff</value>
+  </data>
+  <data name="xterm_88" xml:space="preserve">
+    <value>#870000</value>
+  </data>
+  <data name="xterm_89" xml:space="preserve">
+    <value>#87005f</value>
+  </data>
+  <data name="xterm_90" xml:space="preserve">
+    <value>#870087</value>
+  </data>
+  <data name="xterm_91" xml:space="preserve">
+    <value>#8700af</value>
+  </data>
+  <data name="xterm_92" xml:space="preserve">
+    <value>#8700d7</value>
+  </data>
+  <data name="xterm_93" xml:space="preserve">
+    <value>#8700ff</value>
+  </data>
+  <data name="xterm_94" xml:space="preserve">
+    <value>#875f00</value>
+  </data>
+  <data name="xterm_95" xml:space="preserve">
+    <value>#875f5f</value>
+  </data>
+  <data name="xterm_96" xml:space="preserve">
+    <value>#875f87</value>
+  </data>
+  <data name="xterm_97" xml:space="preserve">
+    <value>#875faf</value>
+  </data>
+  <data name="xterm_98" xml:space="preserve">
+    <value>#875fd7</value>
+  </data>
+  <data name="xterm_99" xml:space="preserve">
+    <value>#875fff</value>
+  </data>
+  <data name="xterm_100" xml:space="preserve">
+    <value>#878700</value>
+  </data>
+  <data name="xterm_101" xml:space="preserve">
+    <value>#87875f</value>
+  </data>
+  <data name="xterm_102" xml:space="preserve">
+    <value>#878787</value>
+  </data>
+  <data name="xterm_103" xml:space="preserve">
+    <value>#8787af</value>
+  </data>
+  <data name="xterm_104" xml:space="preserve">
+    <value>#8787d7</value>
+  </data>
+  <data name="xterm_105" xml:space="preserve">
+    <value>#8787ff</value>
+  </data>
+  <data name="xterm_106" xml:space="preserve">
+    <value>#87af00</value>
+  </data>
+  <data name="xterm_107" xml:space="preserve">
+    <value>#87af5f</value>
+  </data>
+  <data name="xterm_108" xml:space="preserve">
+    <value>#87af87</value>
+  </data>
+  <data name="xterm_109" xml:space="preserve">
+    <value>#87afaf</value>
+  </data>
+  <data name="xterm_110" xml:space="preserve">
+    <value>#87afd7</value>
+  </data>
+  <data name="xterm_111" xml:space="preserve">
+    <value>#87afff</value>
+  </data>
+  <data name="xterm_112" xml:space="preserve">
+    <value>#87d700</value>
+  </data>
+  <data name="xterm_113" xml:space="preserve">
+    <value>#87d75f</value>
+  </data>
+  <data name="xterm_114" xml:space="preserve">
+    <value>#87d787</value>
+  </data>
+  <data name="xterm_115" xml:space="preserve">
+    <value>#87d7af</value>
+  </data>
+  <data name="xterm_116" xml:space="preserve">
+    <value>#87d7d7</value>
+  </data>
+  <data name="xterm_117" xml:space="preserve">
+    <value>#87d7ff</value>
+  </data>
+  <data name="xterm_118" xml:space="preserve">
+    <value>#87ff00</value>
+  </data>
+  <data name="xterm_119" xml:space="preserve">
+    <value>#87ff5f</value>
+  </data>
+  <data name="xterm_120" xml:space="preserve">
+    <value>#87ff87</value>
+  </data>
+  <data name="xterm_121" xml:space="preserve">
+    <value>#87ffaf</value>
+  </data>
+  <data name="xterm_122" xml:space="preserve">
+    <value>#87ffd7</value>
+  </data>
+  <data name="xterm_123" xml:space="preserve">
+    <value>#87ffff</value>
+  </data>
+  <data name="xterm_124" xml:space="preserve">
+    <value>#af0000</value>
+  </data>
+  <data name="xterm_125" xml:space="preserve">
+    <value>#af005f</value>
+  </data>
+  <data name="xterm_126" xml:space="preserve">
+    <value>#af0087</value>
+  </data>
+  <data name="xterm_127" xml:space="preserve">
+    <value>#af00af</value>
+  </data>
+  <data name="xterm_128" xml:space="preserve">
+    <value>#af00d7</value>
+  </data>
+  <data name="xterm_129" xml:space="preserve">
+    <value>#af00ff</value>
+  </data>
+  <data name="xterm_130" xml:space="preserve">
+    <value>#af5f00</value>
+  </data>
+  <data name="xterm_131" xml:space="preserve">
+    <value>#af5f5f</value>
+  </data>
+  <data name="xterm_132" xml:space="preserve">
+    <value>#af5f87</value>
+  </data>
+  <data name="xterm_133" xml:space="preserve">
+    <value>#af5faf</value>
+  </data>
+  <data name="xterm_134" xml:space="preserve">
+    <value>#af5fd7</value>
+  </data>
+  <data name="xterm_135" xml:space="preserve">
+    <value>#af5fff</value>
+  </data>
+  <data name="xterm_136" xml:space="preserve">
+    <value>#af8700</value>
+  </data>
+  <data name="xterm_137" xml:space="preserve">
+    <value>#af875f</value>
+  </data>
+  <data name="xterm_138" xml:space="preserve">
+    <value>#af8787</value>
+  </data>
+  <data name="xterm_139" xml:space="preserve">
+    <value>#af87af</value>
+  </data>
+  <data name="xterm_140" xml:space="preserve">
+    <value>#af87d7</value>
+  </data>
+  <data name="xterm_141" xml:space="preserve">
+    <value>#af87ff</value>
+  </data>
+  <data name="xterm_142" xml:space="preserve">
+    <value>#afaf00</value>
+  </data>
+  <data name="xterm_143" xml:space="preserve">
+    <value>#afaf5f</value>
+  </data>
+  <data name="xterm_144" xml:space="preserve">
+    <value>#afaf87</value>
+  </data>
+  <data name="xterm_145" xml:space="preserve">
+    <value>#afafaf</value>
+  </data>
+  <data name="xterm_146" xml:space="preserve">
+    <value>#afafd7</value>
+  </data>
+  <data name="xterm_147" xml:space="preserve">
+    <value>#afafff</value>
+  </data>
+  <data name="xterm_148" xml:space="preserve">
+    <value>#afd700</value>
+  </data>
+  <data name="xterm_149" xml:space="preserve">
+    <value>#afd75f</value>
+  </data>
+  <data name="xterm_150" xml:space="preserve">
+    <value>#afd787</value>
+  </data>
+  <data name="xterm_151" xml:space="preserve">
+    <value>#afd7af</value>
+  </data>
+  <data name="xterm_152" xml:space="preserve">
+    <value>#afd7d7</value>
+  </data>
+  <data name="xterm_153" xml:space="preserve">
+    <value>#afd7ff</value>
+  </data>
+  <data name="xterm_154" xml:space="preserve">
+    <value>#afff00</value>
+  </data>
+  <data name="xterm_155" xml:space="preserve">
+    <value>#afff5f</value>
+  </data>
+  <data name="xterm_156" xml:space="preserve">
+    <value>#afff87</value>
+  </data>
+  <data name="xterm_157" xml:space="preserve">
+    <value>#afffaf</value>
+  </data>
+  <data name="xterm_158" xml:space="preserve">
+    <value>#afffd7</value>
+  </data>
+  <data name="xterm_159" xml:space="preserve">
+    <value>#afffff</value>
+  </data>
+  <data name="xterm_160" xml:space="preserve">
+    <value>#d70000</value>
+  </data>
+  <data name="xterm_161" xml:space="preserve">
+    <value>#d7005f</value>
+  </data>
+  <data name="xterm_162" xml:space="preserve">
+    <value>#d70087</value>
+  </data>
+  <data name="xterm_163" xml:space="preserve">
+    <value>#d700af</value>
+  </data>
+  <data name="xterm_164" xml:space="preserve">
+    <value>#d700d7</value>
+  </data>
+  <data name="xterm_165" xml:space="preserve">
+    <value>#d700ff</value>
+  </data>
+  <data name="xterm_166" xml:space="preserve">
+    <value>#d75f00</value>
+  </data>
+  <data name="xterm_167" xml:space="preserve">
+    <value>#d75f5f</value>
+  </data>
+  <data name="xterm_168" xml:space="preserve">
+    <value>#d75f87</value>
+  </data>
+  <data name="xterm_169" xml:space="preserve">
+    <value>#d75faf</value>
+  </data>
+  <data name="xterm_170" xml:space="preserve">
+    <value>#d75fd7</value>
+  </data>
+  <data name="xterm_171" xml:space="preserve">
+    <value>#d75fff</value>
+  </data>
+  <data name="xterm_172" xml:space="preserve">
+    <value>#d78700</value>
+  </data>
+  <data name="xterm_173" xml:space="preserve">
+    <value>#d7875f</value>
+  </data>
+  <data name="xterm_174" xml:space="preserve">
+    <value>#d78787</value>
+  </data>
+  <data name="xterm_175" xml:space="preserve">
+    <value>#d787af</value>
+  </data>
+  <data name="xterm_176" xml:space="preserve">
+    <value>#d787d7</value>
+  </data>
+  <data name="xterm_177" xml:space="preserve">
+    <value>#d787ff</value>
+  </data>
+  <data name="xterm_178" xml:space="preserve">
+    <value>#d7af00</value>
+  </data>
+  <data name="xterm_179" xml:space="preserve">
+    <value>#d7af5f</value>
+  </data>
+  <data name="xterm_180" xml:space="preserve">
+    <value>#d7af87</value>
+  </data>
+  <data name="xterm_181" xml:space="preserve">
+    <value>#d7afaf</value>
+  </data>
+  <data name="xterm_182" xml:space="preserve">
+    <value>#d7afd7</value>
+  </data>
+  <data name="xterm_183" xml:space="preserve">
+    <value>#d7afff</value>
+  </data>
+  <data name="xterm_184" xml:space="preserve">
+    <value>#d7d700</value>
+  </data>
+  <data name="xterm_185" xml:space="preserve">
+    <value>#d7d75f</value>
+  </data>
+  <data name="xterm_186" xml:space="preserve">
+    <value>#d7d787</value>
+  </data>
+  <data name="xterm_187" xml:space="preserve">
+    <value>#d7d7af</value>
+  </data>
+  <data name="xterm_188" xml:space="preserve">
+    <value>#d7d7d7</value>
+  </data>
+  <data name="xterm_189" xml:space="preserve">
+    <value>#d7d7ff</value>
+  </data>
+  <data name="xterm_190" xml:space="preserve">
+    <value>#d7ff00</value>
+  </data>
+  <data name="xterm_191" xml:space="preserve">
+    <value>#d7ff5f</value>
+  </data>
+  <data name="xterm_192" xml:space="preserve">
+    <value>#d7ff87</value>
+  </data>
+  <data name="xterm_193" xml:space="preserve">
+    <value>#d7ffaf</value>
+  </data>
+  <data name="xterm_194" xml:space="preserve">
+    <value>#d7ffd7</value>
+  </data>
+  <data name="xterm_195" xml:space="preserve">
+    <value>#d7ffff</value>
+  </data>
+  <data name="xterm_196" xml:space="preserve">
+    <value>#ff0000</value>
+  </data>
+  <data name="xterm_197" xml:space="preserve">
+    <value>#ff005f</value>
+  </data>
+  <data name="xterm_198" xml:space="preserve">
+    <value>#ff0087</value>
+  </data>
+  <data name="xterm_199" xml:space="preserve">
+    <value>#ff00af</value>
+  </data>
+  <data name="xterm_200" xml:space="preserve">
+    <value>#ff00d7</value>
+  </data>
+  <data name="xterm_201" xml:space="preserve">
+    <value>#ff00ff</value>
+  </data>
+  <data name="xterm_202" xml:space="preserve">
+    <value>#ff5f00</value>
+  </data>
+  <data name="xterm_203" xml:space="preserve">
+    <value>#ff5f5f</value>
+  </data>
+  <data name="xterm_204" xml:space="preserve">
+    <value>#ff5f87</value>
+  </data>
+  <data name="xterm_205" xml:space="preserve">
+    <value>#ff5faf</value>
+  </data>
+  <data name="xterm_206" xml:space="preserve">
+    <value>#ff5fd7</value>
+  </data>
+  <data name="xterm_207" xml:space="preserve">
+    <value>#ff5fff</value>
+  </data>
+  <data name="xterm_208" xml:space="preserve">
+    <value>#ff8700</value>
+  </data>
+  <data name="xterm_209" xml:space="preserve">
+    <value>#ff875f</value>
+  </data>
+  <data name="xterm_210" xml:space="preserve">
+    <value>#ff8787</value>
+  </data>
+  <data name="xterm_211" xml:space="preserve">
+    <value>#ff87af</value>
+  </data>
+  <data name="xterm_212" xml:space="preserve">
+    <value>#ff87d7</value>
+  </data>
+  <data name="xterm_213" xml:space="preserve">
+    <value>#ff87ff</value>
+  </data>
+  <data name="xterm_214" xml:space="preserve">
+    <value>#ffaf00</value>
+  </data>
+  <data name="xterm_215" xml:space="preserve">
+    <value>#ffaf5f</value>
+  </data>
+  <data name="xterm_216" xml:space="preserve">
+    <value>#ffaf87</value>
+  </data>
+  <data name="xterm_217" xml:space="preserve">
+    <value>#ffafaf</value>
+  </data>
+  <data name="xterm_218" xml:space="preserve">
+    <value>#ffafd7</value>
+  </data>
+  <data name="xterm_219" xml:space="preserve">
+    <value>#ffafff</value>
+  </data>
+  <data name="xterm_220" xml:space="preserve">
+    <value>#ffd700</value>
+  </data>
+  <data name="xterm_221" xml:space="preserve">
+    <value>#ffd75f</value>
+  </data>
+  <data name="xterm_222" xml:space="preserve">
+    <value>#ffd787</value>
+  </data>
+  <data name="xterm_223" xml:space="preserve">
+    <value>#ffd7af</value>
+  </data>
+  <data name="xterm_224" xml:space="preserve">
+    <value>#ffd7d7</value>
+  </data>
+  <data name="xterm_225" xml:space="preserve">
+    <value>#ffd7ff</value>
+  </data>
+  <data name="xterm_226" xml:space="preserve">
+    <value>#ffff00</value>
+  </data>
+  <data name="xterm_227" xml:space="preserve">
+    <value>#ffff5f</value>
+  </data>
+  <data name="xterm_228" xml:space="preserve">
+    <value>#ffff87</value>
+  </data>
+  <data name="xterm_229" xml:space="preserve">
+    <value>#ffffaf</value>
+  </data>
+  <data name="xterm_230" xml:space="preserve">
+    <value>#ffffd7</value>
+  </data>
+  <data name="xterm_231" xml:space="preserve">
+    <value>#ffffff</value>
+  </data>
+  <data name="xterm_232" xml:space="preserve">
+    <value>#080808</value>
+  </data>
+  <data name="xterm_233" xml:space="preserve">
+    <value>#121212</value>
+  </data>
+  <data name="xterm_234" xml:space="preserve">
+    <value>#1c1c1c</value>
+  </data>
+  <data name="xterm_235" xml:space="preserve">
+    <value>#262626</value>
+  </data>
+  <data name="xterm_236" xml:space="preserve">
+    <value>#303030</value>
+  </data>
+  <data name="xterm_237" xml:space="preserve">
+    <value>#3a3a3a</value>
+  </data>
+  <data name="xterm_238" xml:space="preserve">
+    <value>#444444</value>
+  </data>
+  <data name="xterm_239" xml:space="preserve">
+    <value>#4e4e4e</value>
+  </data>
+  <data name="xterm_240" xml:space="preserve">
+    <value>#585858</value>
+  </data>
+  <data name="xterm_241" xml:space="preserve">
+    <value>#626262</value>
+  </data>
+  <data name="xterm_242" xml:space="preserve">
+    <value>#6c6c6c</value>
+  </data>
+  <data name="xterm_243" xml:space="preserve">
+    <value>#767676</value>
+  </data>
+  <data name="xterm_244" xml:space="preserve">
+    <value>#808080</value>
+  </data>
+  <data name="xterm_245" xml:space="preserve">
+    <value>#8a8a8a</value>
+  </data>
+  <data name="xterm_246" xml:space="preserve">
+    <value>#949494</value>
+  </data>
+  <data name="xterm_247" xml:space="preserve">
+    <value>#9e9e9e</value>
+  </data>
+  <data name="xterm_248" xml:space="preserve">
+    <value>#a8a8a8</value>
+  </data>
+  <data name="xterm_249" xml:space="preserve">
+    <value>#b2b2b2</value>
+  </data>
+  <data name="xterm_250" xml:space="preserve">
+    <value>#bcbcbc</value>
+  </data>
+  <data name="xterm_251" xml:space="preserve">
+    <value>#c6c6c6</value>
+  </data>
+  <data name="xterm_252" xml:space="preserve">
+    <value>#d0d0d0</value>
+  </data>
+  <data name="xterm_253" xml:space="preserve">
+    <value>#dadada</value>
+  </data>
+  <data name="xterm_254" xml:space="preserve">
+    <value>#e4e4e4</value>
+  </data>
+  <data name="xterm_255" xml:space="preserve">
+    <value>#eeeeee</value>
+  </data>
+</root>
