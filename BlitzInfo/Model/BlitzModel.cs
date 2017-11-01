@@ -173,18 +173,25 @@ namespace BlitzInfo.Model
             _userLatLon = new LatLon();
 
             var commandLineArgs = Environment.GetCommandLineArgs();
-            if (commandLineArgs.Length > 1 && commandLineArgs[1] == "local")
+            var isLocal = commandLineArgs.Any(x => x.ToLowerInvariant() == "local");
+            var isNonHttps = commandLineArgs.Any(x => x.ToLowerInvariant() == "non-https");
+
+            if (isLocal)
             {
                 _liveDataUrl = "http://localhost:5001";
                 _restUrl = "http://localhost:5000";
             }
-            else
+            else if (isNonHttps)
             {
                 _liveDataUrl = "http://api.blitzinfo.ehog.hu";
+                _restUrl = "http://api.blitzinfo.ehog.hu/rest";
+            }
+            else
+            {
+                _liveDataUrl = "https://api.blitzinfo.ehog.hu";
                 _restUrl = "https://api.blitzinfo.ehog.hu/rest";
             }
-
-
+      
             _periodic = new System.Timers.Timer();
             _periodic.Interval = (1000 * 120) - 1;
             _periodic.Elapsed += update_periodic;
