@@ -1,77 +1,63 @@
-﻿using BlitzInfo.ViewModel;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlitzInfo.ViewModel
 {
     public class CountryData : BaseViewModel
     {
         private string _countrycode;
-        private int _countrycount;
+        private int _countryCount;
+
         public string CountryCode
         {
-            get
-            {
-                return _countrycode;
-            }
+            get => _countrycode;
             set
             {
                 _countrycode = value;
                 OnPropertyChanged("CountryCode");
             }
         }
+
         public int CountryCount
         {
-            get
-            {
-                return _countrycount;
-            }
+            get => _countryCount;
             set
             {
-                _countrycount = value;
+                _countryCount = value;
                 OnPropertyChanged("CountryCount");
             }
         }
     }
+
     public class BlitzCountryStatItem : BaseViewModel
     {
-        private DateTime _time;
         private int _allcount;
-        private ObservableCollection<CountryData> _countrydata;
+        private ObservableCollection<CountryData> _countryData;
+        private DateTime _time;
+
         public DateTime Time
         {
-            get
-            {
-                return _time;
-            }
+            get => _time;
             set
             {
                 _time = value;
                 OnPropertyChanged("Time");
             }
         }
+
         public ObservableCollection<CountryData> Countries
         {
-            get
-            {
-                return _countrydata;
-            }
+            get => _countryData;
             set
             {
-                _countrydata = value;
+                _countryData = value;
                 OnPropertyChanged("CountryData");
             }
         }
+
         public int AllCount
         {
-            get
-            {
-                return _allcount;
-            }
+            get => _allcount;
             set
             {
                 _allcount = value;

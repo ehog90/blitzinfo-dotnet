@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Data;
 
 namespace BlitzInfo.Converter
@@ -12,12 +8,9 @@ namespace BlitzInfo.Converter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            DateTime dateTime = (DateTime)value;
-            TimeSpan difference = DateTime.Now - dateTime;
-            if (difference.TotalMinutes < 5)
-            {
-                return @"pack://application:,,,/Resources/lightning-01.png";
-            }
+            var dateTime = (DateTime) value;
+            var difference = DateTime.Now - dateTime;
+            if (difference.TotalMinutes < 5) return @"pack://application:,,,/Resources/lightning-01.png";
             return @"pack://application:,,,/Resources/nolightning-01.png";
         }
 

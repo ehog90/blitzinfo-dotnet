@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace BlitzInfo.Model.Entities
@@ -14,16 +11,13 @@ namespace BlitzInfo.Model.Entities
             COUNTY,
             REGIONAL_UNIT,
             UNKNOWN
-        };
+        }
 
-        [JsonProperty("type")]
-        private string _areaType;
+        [JsonProperty("type")] private string _areaType;
 
-        [JsonProperty("name")]
-        public string AreaName { get; set; }
+        [JsonProperty("alerts")] public List<MeteoAlert> Alerts;
 
-        [JsonProperty("alerts")]
-        public List<MeteoAlert> Alerts;
+        [JsonProperty("name")] public string AreaName { get; set; }
 
         public AreaTypes AreaType
         {
@@ -41,23 +35,19 @@ namespace BlitzInfo.Model.Entities
 
     public class MeteoAlert
     {
-        [JsonProperty("timeFirst")]
-        private long _timeFirst;
+        [JsonProperty("timeFirst")] private long _timeFirst;
 
-        [JsonProperty("timeLast")]
-        private long _timeLast;
+        [JsonProperty("timeLast")] private long _timeLast;
 
-        [JsonProperty("level")]
-        public int Level { get; set; }
+        [JsonProperty("level")] public int Level { get; set; }
 
-        [JsonProperty("alertType")]
-        public string AlertType { get; set; }
+        [JsonProperty("alertType")] public string AlertType { get; set; }
 
         public DateTime TimeFirst
         {
             get
             {
-                System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+                var dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
                 dtDateTime = dtDateTime.AddSeconds(_timeFirst).ToLocalTime();
                 return dtDateTime;
             }
@@ -68,7 +58,7 @@ namespace BlitzInfo.Model.Entities
         {
             get
             {
-                System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+                var dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
                 dtDateTime = dtDateTime.AddSeconds(_timeLast).ToLocalTime();
                 return dtDateTime;
             }
